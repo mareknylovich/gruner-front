@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body.standard #wrapper {
+  background-image: url("../../gfx/bg_homepage_oesterreich_usite.jpg"); }
+
+body.home #wrapper {
+  background-image: url("../../gfx/bg_homepage_oesterreich.jpg"); }
+
+/*
+body{
+  div.languages{display: inline-block;position: absolute;
+left: -40px;
+    div{
+      float: left;
+    }
+    div.icons{ display: inline-block;
+width: auto;
+float: left;
+      ul{ padding: 0px;display:block;
+        li{
+
+display: inline-block;
+background-image: url("/files/web/gfx/languages.png");
+
+background-position-y: -30px;
+          a{
+            display:block;
+            width: 24px;
+height: 24px;
+padding:0px;
+margin:0px;
+          }
+        }
+        li.lang_ch{
+          background-position-x: -30px;
+        }
+        li.lang_at{
+          background-position-x: -60px;
+        }
+        
+        li:hover, li.active{
+          background-position-y: 0px;
+        }
+      }
+  }
+  div.select{
+    float:left;
+    ul{ margin: 0px;
+padding: 1px;
+height: 22px;
+overflow: hidden;
+ border: 1px solid #fff;
+ margin-left:10px;
+      li{
+        list-style:none;border-bottom: 1px solid #c3c8cc;
+        a{
+          width:100%;
+          font-size: 13px;
+font-family: "Open Sans", sans-serif;
+color: #888888;
+a:hover{
+  color: #007040;
+text-decoration: underline !important;
+}
+        }
+      }
+      li::after {
+    content: "";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+    }
+   
+  }
+  div.select:hover{border: 1px solid #c3c8cc;box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);background:white;
+      padding:5px; margin-left:-85px;
+     ul{
+     height: auto;
+      margin:0px;
+   
+    
+    padding: 5px;
+border: 1px solid #c3c8cc;
+    li{
+      a{
+        width: 100%;
+display: block;
+padding-right: 75px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 10px;
+      }
+    }
+    li.last{
+      border:none;
+    }
+    
+    li::after {
+   display:none;
+}
+    }
+    
+    
+  }
+  }
+}
+#header {
+  .inside{
+    section{
+      div.last{
+        position:relative;
+      }
+    }
+  }
+}*/
+#interactive-map {
+  background: transparent url("../../gfx/layout/map_bg_at.png");    background-size: 100%; }
+
+body.mobile #wrapper {
+  background-image: none; }
+body.mobile div header {
+  background-image: url("../../gfx/bg_homepage_oesterreich_mobile.jpg"); }
+
+/*# sourceMappingURL=style_at.css.map */
